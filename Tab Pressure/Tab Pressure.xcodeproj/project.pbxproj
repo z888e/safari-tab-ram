@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6118252930AE4DE70084BBE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6118252830AE4DE70084BBE6 /* AppDelegate.swift */; };
+		6118252D30AE4DE70084BBE6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6118252B30AE4DE70084BBE6 /* Main.html */; };
+		6118252F30AE4DE70084BBE6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6118252E30AE4DE70084BBE6 /* Icon.png */; };
+		6118253130AE4DE70084BBE6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6118253030AE4DE70084BBE6 /* Style.css */; };
+		6118253330AE4DE70084BBE6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6118253230AE4DE70084BBE6 /* Script.js */; };
+		6118253530AE4DE70084BBE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6118253430AE4DE70084BBE6 /* ViewController.swift */; };
+		6118253830AE4DE70084BBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6118253630AE4DE70084BBE6 /* Main.storyboard */; };
+		6118253A30AE4DEA0084BBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6118253930AE4DEA0084BBE6 /* Assets.xcassets */; };
+		6118254130AE4DEA0084BBE6 /* Tab Pressure Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6118254030AE4DEA0084BBE6 /* Tab Pressure Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6118254630AE4DEA0084BBE6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6118254530AE4DEA0084BBE6 /* SafariWebExtensionHandler.swift */; };
+		6118255A30AE4DEA0084BBE6 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6118255230AE4DEA0084BBE6 /* popup.js */; };
+		6118255B30AE4DEA0084BBE6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6118255330AE4DEA0084BBE6 /* background.js */; };
+		6118255C30AE4DEA0084BBE6 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6118255430AE4DEA0084BBE6 /* popup.html */; };
+		6118255D30AE4DEA0084BBE6 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 6118255530AE4DEA0084BBE6 /* icons */; };
+		6118255E30AE4DEA0084BBE6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6118255630AE4DEA0084BBE6 /* manifest.json */; };
+		6118255F30AE4DEA0084BBE6 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6118255730AE4DEA0084BBE6 /* popup.css */; };
+		6118256030AE4DEA0084BBE6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6118255830AE4DEA0084BBE6 /* content.js */; };
+		6118256130AE4DEA0084BBE6 /* estimate.js in Resources */ = {isa = PBXBuildFile; fileRef = 6118255930AE4DEA0084BBE6 /* estimate.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6118254230AE4DEA0084BBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6118251D30AE4DE70084BBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6118253F30AE4DEA0084BBE6;
+			remoteInfo = "Tab Pressure Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6118254D30AE4DEA0084BBE6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				6118254130AE4DEA0084BBE6 /* Tab Pressure Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6118252530AE4DE70084BBE6 /* Tab Pressure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Pressure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6118252830AE4DE70084BBE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6118252C30AE4DE70084BBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		6118252E30AE4DE70084BBE6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6118253030AE4DE70084BBE6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6118253230AE4DE70084BBE6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6118253430AE4DE70084BBE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6118253730AE4DE70084BBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6118253930AE4DEA0084BBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6118253B30AE4DEA0084BBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6118254030AE4DEA0084BBE6 /* Tab Pressure Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tab Pressure Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6118254530AE4DEA0084BBE6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6118254730AE4DEA0084BBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6118255230AE4DEA0084BBE6 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../Extension/popup.js; sourceTree = "<group>"; };
+		6118255330AE4DEA0084BBE6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../Extension/background.js; sourceTree = "<group>"; };
+		6118255430AE4DEA0084BBE6 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../Extension/popup.html; sourceTree = "<group>"; };
+		6118255530AE4DEA0084BBE6 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../Extension/icons; sourceTree = "<group>"; };
+		6118255630AE4DEA0084BBE6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Extension/manifest.json; sourceTree = "<group>"; };
+		6118255730AE4DEA0084BBE6 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../Extension/popup.css; sourceTree = "<group>"; };
+		6118255830AE4DEA0084BBE6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../Extension/content.js; sourceTree = "<group>"; };
+		6118255930AE4DEA0084BBE6 /* estimate.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = estimate.js; path = ../../Extension/estimate.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6118252230AE4DE70084BBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6118253D30AE4DEA0084BBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6118251C30AE4DE70084BBE6 = {
+			isa = PBXGroup;
+			children = (
+				6118252730AE4DE70084BBE6 /* Tab Pressure */,
+				6118254430AE4DEA0084BBE6 /* Tab Pressure Extension */,
+				6118252630AE4DE70084BBE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6118252630AE4DE70084BBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6118252530AE4DE70084BBE6 /* Tab Pressure.app */,
+				6118254030AE4DEA0084BBE6 /* Tab Pressure Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6118252730AE4DE70084BBE6 /* Tab Pressure */ = {
+			isa = PBXGroup;
+			children = (
+				6118252830AE4DE70084BBE6 /* AppDelegate.swift */,
+				6118253430AE4DE70084BBE6 /* ViewController.swift */,
+				6118253630AE4DE70084BBE6 /* Main.storyboard */,
+				6118253930AE4DEA0084BBE6 /* Assets.xcassets */,
+				6118253B30AE4DEA0084BBE6 /* Info.plist */,
+				6118252A30AE4DE70084BBE6 /* Resources */,
+			);
+			path = "Tab Pressure";
+			sourceTree = "<group>";
+		};
+		6118252A30AE4DE70084BBE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6118252B30AE4DE70084BBE6 /* Main.html */,
+				6118252E30AE4DE70084BBE6 /* Icon.png */,
+				6118253030AE4DE70084BBE6 /* Style.css */,
+				6118253230AE4DE70084BBE6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6118254430AE4DEA0084BBE6 /* Tab Pressure Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6118255130AE4DEA0084BBE6 /* Resources */,
+				6118254530AE4DEA0084BBE6 /* SafariWebExtensionHandler.swift */,
+				6118254730AE4DEA0084BBE6 /* Info.plist */,
+			);
+			path = "Tab Pressure Extension";
+			sourceTree = "<group>";
+		};
+		6118255130AE4DEA0084BBE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6118255230AE4DEA0084BBE6 /* popup.js */,
+				6118255330AE4DEA0084BBE6 /* background.js */,
+				6118255430AE4DEA0084BBE6 /* popup.html */,
+				6118255530AE4DEA0084BBE6 /* icons */,
+				6118255630AE4DEA0084BBE6 /* manifest.json */,
+				6118255730AE4DEA0084BBE6 /* popup.css */,
+				6118255830AE4DEA0084BBE6 /* content.js */,
+				6118255930AE4DEA0084BBE6 /* estimate.js */,
+			);
+			name = Resources;
+			path = "Tab Pressure Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6118252430AE4DE70084BBE6 /* Tab Pressure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6118254E30AE4DEA0084BBE6 /* Build configuration list for PBXNativeTarget "Tab Pressure" */;
+			buildPhases = (
+				6118252130AE4DE70084BBE6 /* Sources */,
+				6118252230AE4DE70084BBE6 /* Frameworks */,
+				6118252330AE4DE70084BBE6 /* Resources */,
+				6118254D30AE4DEA0084BBE6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6118254330AE4DEA0084BBE6 /* PBXTargetDependency */,
+			);
+			name = "Tab Pressure";
+			productName = "Tab Pressure";
+			productReference = 6118252530AE4DE70084BBE6 /* Tab Pressure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6118253F30AE4DEA0084BBE6 /* Tab Pressure Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6118254A30AE4DEA0084BBE6 /* Build configuration list for PBXNativeTarget "Tab Pressure Extension" */;
+			buildPhases = (
+				6118253C30AE4DEA0084BBE6 /* Sources */,
+				6118253D30AE4DEA0084BBE6 /* Frameworks */,
+				6118253E30AE4DEA0084BBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Tab Pressure Extension";
+			productName = "Tab Pressure Extension";
+			productReference = 6118254030AE4DEA0084BBE6 /* Tab Pressure Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6118251D30AE4DE70084BBE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					6118252430AE4DE70084BBE6 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					6118253F30AE4DEA0084BBE6 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 6118252030AE4DE70084BBE6 /* Build configuration list for PBXProject "Tab Pressure" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6118251C30AE4DE70084BBE6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6118252630AE4DE70084BBE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6118252430AE4DE70084BBE6 /* Tab Pressure */,
+				6118253F30AE4DEA0084BBE6 /* Tab Pressure Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6118252330AE4DE70084BBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				6118252F30AE4DE70084BBE6 /* Icon.png in Resources */,
+				6118253830AE4DE70084BBE6 /* Main.storyboard in Resources */,
+				6118253330AE4DE70084BBE6 /* Script.js in Resources */,
+				6118252D30AE4DE70084BBE6 /* Main.html in Resources */,
+				6118253A30AE4DEA0084BBE6 /* Assets.xcassets in Resources */,
+				6118253130AE4DE70084BBE6 /* Style.css in Resources */,
+			);
+		};
+		6118253E30AE4DEA0084BBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				6118255B30AE4DEA0084BBE6 /* background.js in Resources */,
+				6118255D30AE4DEA0084BBE6 /* icons in Resources */,
+				6118256130AE4DEA0084BBE6 /* estimate.js in Resources */,
+				6118255F30AE4DEA0084BBE6 /* popup.css in Resources */,
+				6118255E30AE4DEA0084BBE6 /* manifest.json in Resources */,
+				6118255C30AE4DEA0084BBE6 /* popup.html in Resources */,
+				6118256030AE4DEA0084BBE6 /* content.js in Resources */,
+				6118255A30AE4DEA0084BBE6 /* popup.js in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6118252130AE4DE70084BBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				6118253530AE4DE70084BBE6 /* ViewController.swift in Sources */,
+				6118252930AE4DE70084BBE6 /* AppDelegate.swift in Sources */,
+			);
+		};
+		6118253C30AE4DEA0084BBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				6118254630AE4DEA0084BBE6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6118254330AE4DEA0084BBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6118253F30AE4DEA0084BBE6 /* Tab Pressure Extension */;
+			targetProxy = 6118254230AE4DEA0084BBE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6118252B30AE4DE70084BBE6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6118252C30AE4DE70084BBE6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6118253630AE4DE70084BBE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6118253730AE4DE70084BBE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6118254830AE4DEA0084BBE6 /* Debug configuration for PBXProject "Tab Pressure" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6118254930AE4DEA0084BBE6 /* Release configuration for PBXProject "Tab Pressure" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6118254B30AE4DEA0084BBE6 /* Debug configuration for PBXNativeTarget "Tab Pressure Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Pressure Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Pressure Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoecda.tab-pressure.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6118254C30AE4DEA0084BBE6 /* Release configuration for PBXNativeTarget "Tab Pressure Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Pressure Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Pressure Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoecda.tab-pressure.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6118254F30AE4DEA0084BBE6 /* Debug configuration for PBXNativeTarget "Tab Pressure" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Pressure/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Pressure";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoecda.Tab-Pressure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6118255030AE4DEA0084BBE6 /* Release configuration for PBXNativeTarget "Tab Pressure" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Pressure/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tab Pressure";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoecda.Tab-Pressure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6118252030AE4DE70084BBE6 /* Build configuration list for PBXProject "Tab Pressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6118254830AE4DEA0084BBE6 /* Debug configuration for PBXProject "Tab Pressure" */,
+				6118254930AE4DEA0084BBE6 /* Release configuration for PBXProject "Tab Pressure" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6118254A30AE4DEA0084BBE6 /* Build configuration list for PBXNativeTarget "Tab Pressure Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6118254B30AE4DEA0084BBE6 /* Debug configuration for PBXNativeTarget "Tab Pressure Extension" */,
+				6118254C30AE4DEA0084BBE6 /* Release configuration for PBXNativeTarget "Tab Pressure Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6118254E30AE4DEA0084BBE6 /* Build configuration list for PBXNativeTarget "Tab Pressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6118254F30AE4DEA0084BBE6 /* Debug configuration for PBXNativeTarget "Tab Pressure" */,
+				6118255030AE4DEA0084BBE6 /* Release configuration for PBXNativeTarget "Tab Pressure" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6118251D30AE4DE70084BBE6 /* Project object */;
+	validationLevel = 1;
+}

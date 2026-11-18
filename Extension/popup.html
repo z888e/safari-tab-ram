@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tab Pressure</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="brand">Tab Pressure</p>
+        <p class="sub" id="summary">Loading estimates…</p>
+      </div>
+      <div class="top-actions">
+        <button type="button" class="ghost" id="refresh" title="Refresh">Refresh</button>
+        <button type="button" class="ghost" id="copy-list" title="Copy ranked list">Copy</button>
+      </div>
+    </header>
+
+    <p class="disclaimer">
+      Weights are estimates from page signals and host hints — not Safari process RAM.
+      Cache clear removes cookies and page storage; Safari blocks full HTTP cache wipe from extensions.
+    </p>
+
+    <div class="bulk" id="bulk" hidden>
+      <span id="selected-count">0 selected</span>
+      <button type="button" class="danger" id="close-selected">Close selected</button>
+    </div>
+
+    <ul class="list" id="list" aria-label="Tabs by estimated weight"></ul>
+
+    <template id="row-template">
+      <li class="row">
+        <label class="check">
+          <input type="checkbox" class="select" />
+          <span class="sr-only">Select tab</span>
+        </label>
+        <button type="button" class="main" data-action="activate">
+          <span class="bar" aria-hidden="true"><span class="bar-fill"></span></span>
+          <span class="meta">
+            <span class="title"></span>
+            <span class="host"></span>
+          </span>
+          <span class="weight"></span>
+        </button>
+        <div class="actions">
+          <button type="button" class="icon" data-action="pin" title="Pin or unpin">Pin</button>
+          <button type="button" class="icon" data-action="clear" title="Clear cookies and page storage">Clear</button>
+          <button type="button" class="icon danger-text" data-action="close" title="Close tab">Close</button>
+        </div>
+      </li>
+    </template>
+
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>
